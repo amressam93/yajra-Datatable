@@ -42,9 +42,9 @@
             <div class="col-sm-3">
                 <select name="lang_id" id="language" class="form-control select">
                     <option value="null">All</option>
-{{--                    @foreach($languages as $lang)--}}
-{{--                        <option value="{{$lang->id}}">{{$lang->lang}}</option>--}}
-{{--                    @endforeach--}}
+                    @foreach($languages as $lang)
+                        <option value="{{$lang->id}}">{{$lang->lang}}</option>
+                    @endforeach
                 </select>
             </div>
     </div>
@@ -55,9 +55,9 @@
         <div class="col-sm-3">
             <select name="category_id" id="categories" class="form-control select">
                 <option value="null">All</option>
-{{--                @foreach($categories as $category)--}}
-{{--                    <option value="{{$category->id}}">{{$category->name}}</option>--}}
-{{--                @endforeach--}}
+                @foreach($categories as $category)
+                    <option value="{{$category->id}}">{{$category->name}}</option>
+                @endforeach
             </select>
         </div>
     </div>
